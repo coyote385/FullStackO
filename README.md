@@ -1,6 +1,7 @@
 # Diagramas de la Aplicación de Notas
 
 ## 0.5: Diagrama de aplicación de una sola página
+## 0.6: Nueva nota en Diagrama de aplicación de una sola página
 
 ```mermaid
 sequenceDiagram
@@ -17,4 +18,5 @@ sequenceDiagram
     Servidor-->>Navegador: 7. Responde con datos iniciales (opcional)
     Navegador->>Usuario: 8. Renderiza la aplicación SPA
     Usuario->>Usuario: Interactúa con la aplicación
+
 
